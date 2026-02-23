@@ -243,25 +243,7 @@ const Giveaways = () => {
 🏆 Prize: ${selectedPrizeForAction.title}
 🚚 Shipping Fee: ${selectedPrizeForAction.shippingFeeSAR} ($${selectedPrizeForAction.shippingFeeUSD})
 
-*Shipping Information Required:*
-📍 Please provide your complete shipping address including:
-- Full Name
-- Street Address
-- City
-- State/Province
-- Postal Code
-- Country
-- Phone Number
-
-*Next Steps:*
-1. Please reply with your shipping details
-2. Our team will verify your information
-3. We'll provide shipping timeline and tracking
-4. Payment for shipping will be arranged
-
-*Note:* Shipping will be processed within 5-7 business days after verification.
-
-Thank you for being part of Al-Nassr Giveaways! ⚽️`;
+Please give me more informations to redeem my prize`;
 
     // Encode the message for WhatsApp URL
     const encodedMessage = encodeURIComponent(whatsappMessage);
