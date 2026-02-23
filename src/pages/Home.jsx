@@ -247,7 +247,7 @@ Please give me more informations to redeem my prize`;
 
     // Encode the message for WhatsApp URL
     const encodedMessage = encodeURIComponent(whatsappMessage);
-    const whatsappNumber = "+1(825)595-3700"; // Replace with actual business WhatsApp number
+    const whatsappNumber = "+1 (825) 595-3700"; // Replace with actual business WhatsApp number
 
     // Open WhatsApp with the message
     window.open(
